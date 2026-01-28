@@ -79,16 +79,16 @@ Accuracy isn't everything. We needed to know *where* the models were making mist
 
 <div style="display: flex; justify-content: space-around;">
 <img src="assets/densenet121_cm.png" alt="DenseNet121 CM" width="50%"/>
-<img src="assets/Effectivenetv2s_cm.png" alt="EfficientNetV2S CM" width="50%"/>
+<img src="assets/efficientnetv2s_cm.png" alt="EfficientNetV2S CM" width="50%"/>
 
 </div>
 
 <div style="display: flex; justify-content: space-around;">
-<img src="assets/Effectivenetv2m_cm.png" alt="EfficientNetV2M CM" width="50%"/>
+<img src="assets/efficientnetv2m_cm.png" alt="EfficientNetV2M CM" width="50%"/>
 <img src="assets/inceptionresnetv2_cm.png" alt="InceptionResNetV2 CM" width="50%"/>
 </div>
 
-*Figure 3: Confusion Matrices for DenseNet121, InceptionResNetV2, and EfficientNetV2S. Note the common confusion between 'meningioma' and 'pituitary' classes.*
+*Figure 3: Confusion Matrices for DenseNet121,EfficientNetV2S, EfficientNetV2M InceptionResNetV2. Note the common confusion between 'meningioma' and 'pituitary' classes.*
 
 
 This analysis was crucial. It showed us that while individual models were excellent, they had specific, overlapping weaknesses. This was the perfect setup for an ensemble.
